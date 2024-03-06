@@ -21,13 +21,13 @@
 					}
 				},
 				"url": {
-					"raw": "http://20.244.43.97:8080/identify/",
+					"raw": "http://20.244.44.28:8080/identify/",
 					"protocol": "http",
 					"host": [
 						"20",
 						"244",
-						"43",
-						"97"
+						"44",
+						"28"
 					],
 					"port": "8080",
 					"path": [
@@ -53,13 +53,45 @@
 					}
 				},
 				"url": {
-					"raw": "http://20.244.43.97:8080/identify/",
+					"raw": "http://20.244.44.28:8080/identify/",
 					"protocol": "http",
 					"host": [
 						"20",
 						"244",
-						"43",
-						"97"
+						"44",
+						"28"
+					],
+					"port": "8080",
+					"path": [
+						"identify",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Phone or Email",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"phoneNumber\":988749,\n    \"email\":\"final2@test.edu\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://20.244.44.28:8080/identify/",
+					"protocol": "http",
+					"host": [
+						"20",
+						"244",
+						"44",
+						"28"
 					],
 					"port": "8080",
 					"path": [
