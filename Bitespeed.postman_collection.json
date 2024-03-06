@@ -1,0 +1,74 @@
+{
+	"info": {
+		"_postman_id": "e66fac61-5c5c-4739-8cf9-255dea190c0f",
+		"name": "Bitespeed",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "33020580"
+	},
+	"item": [
+		{
+			"name": "Matching Email",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"email\":\"lorraine@hillvalley.edu\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://20.244.43.97:8080/identify/",
+					"protocol": "http",
+					"host": [
+						"20",
+						"244",
+						"43",
+						"97"
+					],
+					"port": "8080",
+					"path": [
+						"identify",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Matching Phone Number",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"phoneNumber\":789456\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://20.244.43.97:8080/identify/",
+					"protocol": "http",
+					"host": [
+						"20",
+						"244",
+						"43",
+						"97"
+					],
+					"port": "8080",
+					"path": [
+						"identify",
+						""
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
