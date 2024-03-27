@@ -14,3 +14,6 @@ For testing the API endpoints, it's recommended to use ThunderClient or Postman.
 ## Technologies Used
 - Django
 - Python
+## Live Demo
+https://github.com/Foxtrot-14/Bitespeed-Assignment/assets/90846132/1bddfdc9-8a0b-4fe3-aa5b-4816534148bd
+
